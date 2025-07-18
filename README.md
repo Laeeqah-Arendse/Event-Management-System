@@ -52,14 +52,16 @@ Manage events, registrations, approvals, and attendee views with calendar and em
    cd event_management_system
 
 2. Install Dependencies:
+    ```bash
 	composer install
 	npm install
 	npm run build
 
-3. Copy .env File:
+4. Copy .env File:
+    ```bash
 	cp .env.example .env
-4. Set Up .env:
-	
+6. Set Up .env:
+	```env
 	APP_NAME=Laravel
 	APP_ENV=local
 	APP_KEY=base64:xPl37k9/mF+8pEUOjjU/n1oS5LSbI3+tOKjqrVo4S+E=
@@ -84,11 +86,12 @@ Manage events, registrations, approvals, and attendee views with calendar and em
 	MAIL_FROM_NAME="${APP_NAME}"
 
 
-5. Generate Key & Migrate Database:
+7. Generate Key & Migrate Database:
+   ```bash
 	php artisan key:generate
 	php artisan migrate --seed
 
-6. Access the App:
+9. Access the App:
 	Visit http://localhost/event_management_system/public/login in your browser.
 
 
