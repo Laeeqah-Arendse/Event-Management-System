@@ -106,6 +106,20 @@ Manage events, registrations, approvals, and attendee views with calendar and em
 - As an Organizer: Create and manage your own events.
 - As an Attendee: View upcoming events, register, and track approvals.
 
+## Folder Structure
+- app/Models — Eloquent Models (e.g., Event, User, Registration)
+- app/Http/Controllers — All controller logic (CRUD, access control)
+- resources/views — Blade templates organized into components/layouts
+- routes/web.php — All route definitions
+- database/migrations — Database structure setup
+- database/seeders — Factory-based test data
+- app/Policies — Laravel Policies for RBAC
+
+## Challenges Faced
+- Integrating role-based access using Laravel policies
+- Sending dynamic emails during approval workflows
+- Calendar view integration with event data
+
 
 Test Login Roles
 
