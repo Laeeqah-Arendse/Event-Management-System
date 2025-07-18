@@ -24,9 +24,9 @@ php artisan serve
 
 Login Roles
 
-admin@example.com / password
-organizer@example.com / password
-attendee@example.com / password
+admin@example.com / password  (admin)
+laeeqah.arendse@icloud.com / Laeeqah123 (attendee)
+nadiaarendse@gmail.com / Nadia123 (organiser)
 
 Template Credit
 Calendar: FullCalendar.io
