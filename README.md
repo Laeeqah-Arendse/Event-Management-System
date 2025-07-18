@@ -109,7 +109,7 @@ Manage events, registrations, approvals, and attendee views with calendar and em
 
 Test Login Roles
 
-- admin@example.com / password  (admin)
+- admin@example.com / password123  (admin)
 - laeeqah.arendse@icloud.com / Laeeqah123 (attendee)
 - nadiaarendse@gmail.com / Nadia123 (organiser)
 
