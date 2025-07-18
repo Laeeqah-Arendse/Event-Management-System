@@ -17,9 +17,9 @@ class LAEventPolicy
         return true;
     }
 
-    public function create(User $user): bool
+    public function create(User $user)
 {
-    return in_array($user->role, ['admin', 'organizer']);
+    return true;
 }
 
 public function update(User $user, LAEvent $event): bool

@@ -3,6 +3,12 @@
 @section('content')
     <h1 class="text-2xl font-bold mb-4">All Events</h1>
 
+	<div class="d-flex justify-content-end mb-3">
+     <a href="{{ route('events.create') }}" class="bg-blue-500 text-white px-4 py-2 rounded mb-4 inline-block">Create Event</a>
+    </a>
+</div>
+
+
     {{-- Show success or message alerts --}}
     @if(session('success'))
         <script>alert("{{ session('success') }}");</script>

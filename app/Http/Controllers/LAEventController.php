@@ -9,10 +9,10 @@ use Illuminate\Support\Facades\Auth;
 
 class LAEventController extends Controller
 {
-    public function __construct()
-    {
-        $this->authorizeResource(LAEvent::class, 'event');
-    }
+    // public function __construct()
+   // {
+        // $this->authorizeResource(LAEvent::class, 'event');
+    // }
 
     public function register(LAEvent $event)
     {
@@ -39,9 +39,9 @@ class LAEventController extends Controller
     }
 
     public function create()
-    {
-        return view('events.create');
-    }
+{
+    return view('events.create');
+}
 
     public function store(StoreEventRequest $request)
     {
